@@ -81,5 +81,5 @@ Confusion matrix doğru sınıflandırmaların baskın olduğunu, özellikle dom
 ---
 
 ## 8) Kaynak
-[Kaggle Notebook][(https://www.kaggle.com/code/buketyurt/global-ai-hub-deep-learning-bootcamp)
-](https://github.com/buketyurt/Global-AI-Hub-Deep-Learning-Bootcamp?tab=readme-ov-file#4-model-sonu%C3%A7lar%C4%B1n%C4%B1n-%C3%B6zeti)
+[Kaggle Notebook](https://www.kaggle.com/code/buketyurt/global-ai-hub-deep-learning-bootcamp))
+]
