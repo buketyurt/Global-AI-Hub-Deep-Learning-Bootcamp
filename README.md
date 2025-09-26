@@ -9,7 +9,6 @@ Projede aşağıdaki adımlar uygulanmıştır:
 - Değerlendirme metrikleri (accuracy, macro/weighted F1)
 - TTA (test-time augmentation)
 - Eigen-CAM görselleştirmeleri
-- Çıktıların diske kaydı
 
 ---
 
@@ -21,8 +20,6 @@ Bu çalışmada kullanılan veri kümesi, Kaggle üzerinde yayımlanan **PlantVi
 - **Veri Tipi:** Renkli yaprak görüntüleri (RGB)  
 - **Dosya Yapısı:** Her hastalık/tür kombinasyonu için ayrı klasör  
   *(Örn: Tomato___Late_blight, Potato___Early_blight, Pepper___healthy)*
-
-Görseller, laboratuvar ve kontrollü ortam koşullarında çekildiği için yüksek çözünürlüklü ve düzenli etiketlenmiştir.
 
 ---
 
@@ -48,9 +45,9 @@ Eğitim süreci boyunca model, başlangıçta düşük doğruluk oranından (Epo
 - Bazı sınıflar: %100 doğruluk (örn. Potato healthy, Tomato Leaf Mold)  
 - Zor sınıflar: Tomato healthy → %83.6 doğruluk  
 - **Plant-wise doğruluk:**  
-  - Patates: %98.1  
-  - Biber: %96.4  
-  - Domates: %92.9  
+  - Potato: %98.1  
+  - Pepper: %96.4  
+  - Tomato: %92.9  
   - Genel Ortalama: %95.8
 
 Confusion matrix doğru sınıflandırmaların baskın olduğunu, özellikle domates sağlıklı/hasta ayrımında hata payı olduğunu göstermektedir.
